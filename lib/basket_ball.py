@@ -264,6 +264,7 @@ def average_rebounds_by_shoe_brand():
             # Append rebounds to the list for the shoe brand
             rebounds_by_brand[shoe_brand].append(rebounds)
 
+    
     # Calculate average rebounds for each shoe brand
     for brand, rebounds_list in rebounds_by_brand.items():
         average_rebounds = sum(rebounds_list) / len(rebounds_list)
